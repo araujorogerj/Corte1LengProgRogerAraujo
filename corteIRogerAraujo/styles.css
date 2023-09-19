@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    pad: 0;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit{
+    background-color: rgb(172, 247, 157);
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px lightcoral;
+    color: lightcoral;
+}
+
+.formulario{
+    margin-left: 1%;
+}

@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario HTML</title>
+  </head>
+  <body>
+    <div class="formulario">
+      <form action="ejercicio.php" method="get">
+        <div class="atencion">
+          <label for="atencion_personal"
+            ><h3>¿Qué tal estuvo la Atención por parte del personal?</h3></label
+          >
+          <input type="radio" name="atencion" value="buena" />Buena
+          <input type="radio" name="atencion" value="regular" />Regular
+          <input type="radio" name="atencion" value="mala" />Mala
+        </div>
+        <div class="calidad">
+          <label for="calidad_comida"
+            ><h3>¿Qué tal estuvo la calidad de la comida?</h3></label
+          >
+          <input type="radio" name="calidad" value="buena" />Buena
+          <input type="radio" name="calidad" value="regular" />Regular
+          <input type="radio" name="calidad" value="mala" />Mala
+        </div>
+        <div class="tiempo">
+          <label for="tiempo_entrega"
+            ><h3>¿Qué tal estuvo el tiempo de entrega de la comida?</h3></label
+          >
+          <input type="radio" name="tiempo" value="buena" />Bueno
+          <input type="radio" name="tiempo" value="regular" />Regular
+          <input type="radio" name="tiempo" value="mala" />Malo
+        </div>
+        <br/>
+        <input type="submit" class="submit"/>
+      </form>
+    </div>
+  </body>
 </html>
