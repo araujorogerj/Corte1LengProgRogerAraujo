@@ -1,4 +1,5 @@
 <?php
+// Trabajado con Xampp localhost
 $atencion = $_GET['atencion'];
 $calidad = $_GET['calidad'];
 $tiempo = $_GET['tiempo'];
